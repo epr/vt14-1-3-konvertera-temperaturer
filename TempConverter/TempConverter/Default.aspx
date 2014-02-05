@@ -39,10 +39,12 @@
         <div>
             <%-- Conversion type --%>
             <label>Typ av konvertering</label>
-            <asp:RadioButtonList ID="RadioButtonList1" runat="server">
-                <asp:ListItem Selected="True">Celsius till Fahrenheit</asp:ListItem>
-                <asp:ListItem>Fahrenheit till Celsius</asp:ListItem>
-            </asp:RadioButtonList>
+            <div>
+                <asp:RadioButton ID="CtoF" GroupName="ConversionType" Text="Celsius till Fahrenheit" Checked="true" runat="server" />
+            </div>
+            <div>
+                <asp:RadioButton ID="FtoC" GroupName="ConversionType" Text="Fahrenheit till Celsius" runat="server" />
+            </div>
         </div>
         <div>
             <%-- Convert button --%>
