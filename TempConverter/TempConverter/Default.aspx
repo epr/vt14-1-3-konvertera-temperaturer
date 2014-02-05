@@ -52,7 +52,7 @@
         </div>
         <div>
             <asp:Table ID="ResultTable" Visible="false" runat="server">
-
+                <asp:TableHeaderRow ID="ResultTableHeader"></asp:TableHeaderRow>
             </asp:Table>
         </div>
     </form>
