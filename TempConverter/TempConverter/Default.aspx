@@ -48,6 +48,11 @@
             <%-- Convert button --%>
             <asp:Button ID="Convert" runat="server" Text="Konvertera" OnClick="Convert_Click" />
         </div>
+        <div>
+            <asp:Table ID="ResultTable" Visible="false" runat="server">
+
+            </asp:Table>
+        </div>
     </form>
 </body>
 </html>

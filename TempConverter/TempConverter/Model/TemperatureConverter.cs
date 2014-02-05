@@ -9,11 +9,11 @@ namespace TempConverter.Model
     {
         public static int CelsiusToFahrenheit(int degreesC)
         {
-            return (int)(degreesC * 1.8 + 32);
+            return Convert.ToInt32(degreesC * 1.8 + 32);
         }
         public static int FahrenheitToCelsius(int degreesF)
         {
-            return (int)((degreesF - 32) / 1.8);
+            return Convert.ToInt32((degreesF - 32) / 1.8);
         }
     }
 }
